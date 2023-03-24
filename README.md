@@ -1,2 +1,2 @@
 # gamingblog.github.io
-Mini Project 1
+KodeGo Mini Project 1
