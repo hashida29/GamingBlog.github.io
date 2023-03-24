@@ -187,6 +187,22 @@ body {
 	color: #4f9cb8; /* blue */
 }
 
+.ability-morph {
+	color: #4f9cb8; /* blue */
+}
+
+.ability-conceal {
+	color: #4f9cb8; /* blue */
+}
+
+.ability-reduce-damage {
+	color: #4f9cb8; /* blue */
+}
+
+.ability-remove-cc {
+	color: #4f9cb8; /* blue */
+}
+
 .ability-blink {
 	color: #a269c7; /* purple */
 }
@@ -303,8 +319,8 @@ body {
 .overview-column {
 	float: left;
 	width: 25%;
-	margin-left: 10%;
-	margin-top: -2%;
+	padding-left: 7%;
+	margin-top: -1%;
 }
 
 .overview-column h1 {
@@ -324,7 +340,8 @@ body {
 .community-column {
 	float: left;
 	width: 25%;
-	margin-top: -2%;
+	margin-top: -1%;
+	padding-left: 3%;
 }
 
 .community-column h1 {
@@ -337,4 +354,16 @@ body {
 	text-decoration: none;
 	color: black;
 	font-size: 1vw;
+}
+
+.apps-column {
+	float: left;
+	width: 25%;
+}
+
+.apps-column img {
+	height: auto;
+	width: 80%;
+	margin-left: -10%;
+	margin-top: 5%;
 }

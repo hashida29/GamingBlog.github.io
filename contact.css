@@ -8,7 +8,6 @@ body {
 
 /* -------------- Top Navigation Bar --------------- */ 
 
-
 .mlbb-logo {
 	float: left;
 	height: auto;
@@ -48,81 +47,107 @@ body {
  	transform: scale(1.2);
 }
 
-.update-txt {
-	height: auto;
-	max-width: 100%;
+.content {
 	margin-top: 10%;
+	background-color: #203f6c;
+	background-image: linear-gradient(to top right, #203f6c, #003399);
+	padding: 5%;
 	margin-left: 2%;
+	margin-right: 2%;
+	color: white;
 }
 
-#update-txt-img {
-	width: 30%;
-}
-
-.latest-news-content {
-	position: relative;
-	max-width: 100%;
-	margin-top: 5%;
-	margin-left: 5%;
-	margin-right: 5%;
+.submit-img {	
+	width: 40%;
+	height: auto;
 	margin-bottom: 5%;
 }
 
-.content-col {
-	float: left;
-	width: 33.33%;
-	display: inline;
+.option {
+	width: 50%;
+	padding: 1%;
+	margin-bottom: 1%;
 }
 
-.mlbb-cover {
-	display: block;
-	width: 100%;
+.txt {
+	font-size: 1.2vw;
+	font-weight: 700;
+}
+
+.txtbox {
+	width: 50%;
+	padding: 1%;
+	margin-bottom: 1%;
+}
+
+.ptxt {
+	color: #ddd;
+	font-size: 0.8vw;
+	font-weight: 400;
+	margin-top: -1%;
+}
+
+.submitbtn {
 	height: auto;
+	width: 10%;
+	margin-top: 3%;
+	transition: 0.5s;
 }
 
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 100%;
-  height: 36%;
-  transition: .5s ease;
-  opacity: 0.9;
-  border-bottom: 5px solid #808080;
+.submitbtn:hover {
+	cursor: pointer;
+	-moz-transform: scale(1.3);
+ 	-webkit-transform: scale(1.3);
+ 	transform: scale(1.3);
 }
 
-.latest-news-content:hover .overlay {
-  height: 100%;
-  opacity: 0.8;
-  border-bottom: 5px solid #eac56b;
-  cursor: pointer;
+.contact-cover {
+		width: 100%;
 }
 
-.overlay h3 {
-	margin-left: 5%;
-	margin-right: 5%;
-	font-size: 1vw;
+.col-right {
+	float: right;
+	width: 50%;
+	margin-top: -65%;
+	margin-right: -3%;
+	padding: 5%;
+}
+
+.col-right h1 {
+	margin-top: 5%;
+	font-size: 1.3vw;
+	font-weight: 600;
+}
+
+.col-right h2 {
+	margin-top: 5%;
+	font-size: 1.2vw;
+	font-weight: 200;
 	color: #ddd;
 }
 
-.overlay h1 {
-	margin-left: 5%;
-	margin-right: 5%;
-	font-size: 1.2vw;
-	font-weight: 600;
-	color: white;
+.col-right h3 {
+	font-size: 1vw;
+	font-weight: 400;
+	color: #ddd;
 }
 
-.overlay p {
-	margin-left: 5%;
-	margin-right: 5%;
-	font-size: 0.9vw;
-	color: white;
-	text-align: justify;
+.mlbb-link {
+	margin-top: 5%;
 }
+
+.col-right a:hover {
+	color: #eac56b;
+}
+
+.link-tag {
+	margin-top: 8%;
+}
+
+.link-tag h3 {
+	font-size: 1.3vw;
+}
+
 
 /* ------------------- Footer ---------------------- */
 
